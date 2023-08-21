@@ -1,0 +1,30 @@
+.footer {
+  width: 100%;
+  background-color: #184161;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footerContainer {
+  padding: 25px 70px 35px 50px;
+}
+
+.footerText {
+  font-size: 26px;
+  font-weight: 500;
+  color: #3f87a6;
+
+  margin-bottom: 15px;
+}
+
+.footerLink {
+  font-weight: 700;
+  font-size: 16px;
+  color: #f69d3c;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footerLink:hover,
+.footerLink:focus {
+  color: #ebf8e1;
+}

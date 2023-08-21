@@ -1,0 +1,13 @@
+.contactItem {
+  display: flex;
+  align-items: center;
+}
+
+.contactText {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  color: #3f87a6;
+
+  margin-right: 50px;
+}

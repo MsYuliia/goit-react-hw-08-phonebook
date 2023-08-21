@@ -1,0 +1,48 @@
+.headerHome {
+  text-decoration: none;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #f69d3c;
+
+  border: 1px #f69d3c solid;
+  border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+
+  padding: 8px 12px;
+  margin-right: 30px;
+}
+
+.headerHome:hover,
+.headerHome:focus {
+  color: #ebf8e1;
+  box-shadow: 0px 1px 6px #ebf8e1;
+  border: 1px #ebf8e1 solid;
+}
+
+.headerContacts {
+  text-decoration: none;
+  align-items: center;
+  font-weight: 700;
+  font-size: 16px;
+  color: #f69d3c;
+
+  border: 1px #f69d3c solid;
+  border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+
+  padding: 8px 12px;
+}
+
+.headerContacts:hover,
+.headerContacts:focus {
+  color: #ebf8e1;
+  box-shadow: 0px 1px 6px #ebf8e1;
+  border: 1px #ebf8e1 solid;
+}

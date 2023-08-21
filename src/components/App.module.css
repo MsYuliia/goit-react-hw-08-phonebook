@@ -1,0 +1,110 @@
+/* ---------- Home page styles ---------- */
+.homeContainer {
+  max-width: 1200px;
+
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.homeTitle {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 700;
+  color: #184161;
+
+  margin-bottom: 50px;
+}
+
+.homeItemContacts {
+  width: 300px;
+  height: 150px;
+  background-color: #effef7;
+  border: 1px #d0d8e4 solid;
+  border-radius: 8px;
+  transform: scale(1);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.5);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+
+  padding-left: 50px;
+}
+
+.homeItemContacts:hover,
+.homeItemContacts:focus {
+  box-shadow: 0px 1px 6px #ebf8e1;
+  border: 1px #ebf8e1 solid;
+  transform: scale(1.03);
+}
+
+.centerContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.homeItem {
+  font-size: 16px;
+  font-weight: 500;
+  color: #184161;
+}
+
+.homeLink {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f69d3c;
+}
+
+.homeList {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.homeListItem {
+  width: 350px;
+  height: 150px;
+  background-color: #effef7;
+  border: 1px #d0d8e4 solid;
+  border-radius: 8px;
+  transform: scale(1);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.5);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.homeListItem:hover,
+.headerRegister:focus {
+  box-shadow: 0px 1px 6px #ebf8e1;
+  border: 1px #ebf8e1 solid;
+  transform: scale(1.03);
+}
+
+/* ---------- Home page styles ---------- */
+.contactsContainer {
+  max-width: 1200px;
+  display: flex;
+  gap: 350px;
+
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.contactsMainTitle {
+  font-size: 32px;
+  color: #effef7;
+  text-shadow: 0px 1px 6px rgba(46, 47, 66, 1);
+
+  margin-bottom: 20px;
+}
+
+.contactsTitle {
+  font-size: 28px;
+  color: #184161;
+
+  margin-bottom: 20px;
+}
